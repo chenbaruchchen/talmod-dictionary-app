@@ -25,6 +25,7 @@ app.get('/api/item/:slug', (req, res) => {
 
 app.use('/api/get-translate/', getTranslateRoutes)
 
+console.log(1)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
