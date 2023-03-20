@@ -2,7 +2,7 @@ require('dotenv').config()
 
 const express = require('express')
 
-const scraper=require('./scraper')
+const scraper=require('./scraperVarcel')
 const {query}=require('./db/index')
 const getTranslateRoutes=require('./api/translate')
 
