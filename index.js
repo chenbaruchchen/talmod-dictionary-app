@@ -4,7 +4,7 @@ const express = require('express')
 
 const scraper=require('./scraper')
 const {query}=require('./db/index')
-const getTranslateRoutes=require('./routes/translate')
+const getTranslateRoutes=require('./api/translate')
 
 const app = express()
 const port = process.env.PORT || 8080
