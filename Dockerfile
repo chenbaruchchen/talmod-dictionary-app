@@ -23,7 +23,7 @@
 # CMD [ "node", "index.js" ]
 
 
-FROM zenato/puppeteer
+FROM "ghcr.io/puppeteer/puppeteer:19.7.5"
 
 USER root
 
