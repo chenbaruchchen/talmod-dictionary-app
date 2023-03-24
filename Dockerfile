@@ -1,5 +1,6 @@
 FROM "ghcr.io/puppeteer/puppeteer:latest"
 
+
 # Create app directory
 WORKDIR /usr/src/app
 
@@ -16,4 +17,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "node", "server.js" ]
+CMD [ "node", "index.js" ]
